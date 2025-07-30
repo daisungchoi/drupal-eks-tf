@@ -1,0 +1,19 @@
+terraform-drupal-eks/
+├── main.tf
+├── variables.tf
+├── outputs.tf
+├── providers.tf
+├── backend.tf
+├── versions.tf
+├── modules/
+│   ├── vpc/
+│   ├── eks/
+│   └── rds/
+├── helm/
+│   └── drupal.tf
+├── ingress/
+│   └── ingress.tf
+├── secrets/
+│   └── drupal-secrets.tf
+├── .gitignore
+├── README.md
